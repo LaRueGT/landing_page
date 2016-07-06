@@ -13,17 +13,14 @@ div {
     z-index: 999;
 }
 
-.navbar .navitems {
-    float: right;
-    color: #838994;
-    font-size: 1.04rem;
-    margin-top: 1.7rem;
+.navbar > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
 
-.navitems > li {
-    display: inline-block;
-}
-
-.navbar .logo {
-    height: 4.375rem;
+.logo {
+    height: 3rem;
+    margin-left: 1rem;
+    margin-top: .75rem;
 }
