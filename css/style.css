@@ -1,6 +1,12 @@
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
 }
+
 div {
     border: 1px solid Chocolate;
 }
@@ -17,10 +23,28 @@ div {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0rem 1rem;
+}
+
+.navbar .navitems {
+    float: right;
+    margin-top: 1.5rem;
+}
+
+.navbar .navitems > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.navitems > li {
+    display: inline-block;
+}
+
+.navitems > li :hover {
+    color: #00FF00;
 }
 
 .logo {
     height: 3rem;
-    margin-left: 1rem;
     margin-top: .75rem;
 }
