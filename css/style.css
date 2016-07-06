@@ -4,3 +4,26 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+.navbar {
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #FF0000;
+    z-index: 999;
+}
+
+.navbar .navitems {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+
+.navitems > li {
+    display: inline-block;
+}
+
+.navbar .logo {
+    height: 4.375rem;
+}
